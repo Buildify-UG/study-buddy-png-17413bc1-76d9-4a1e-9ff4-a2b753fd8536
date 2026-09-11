@@ -1,0 +1,87 @@
+{
+  "name": "Study Buddy PNG",
+  "short_name": "Study Buddy",
+  "description": "Comprehensive learning platform for Grades 8-12 in Papua New Guinea",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>SB</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%232563eb' width='512' height='512'/><text x='256' y='360' font-size='320' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>SB</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192'/><circle cx='96' cy='96' r='85' fill='white' opacity='0.1'/><text x='96' y='130' font-size='120' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>SB</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f0f9ff' width='540' height='720'/><rect fill='%232563eb' width='540' height='100'/><text x='270' y='60' font-size='32' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>Study Buddy PNG</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect fill='%23f0f9ff' width='1280' height='720'/><rect fill='%232563eb' width='1280' height='80'/><text x='640' y='50' font-size='48' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>Study Buddy PNG</text></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Notes",
+      "short_name": "Notes",
+      "description": "Access study notes for all subjects",
+      "url": "/?section=notes",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>📝</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Take Quizzes",
+      "short_name": "Quiz",
+      "description": "Test your knowledge with interactive quizzes",
+      "url": "/?section=quizzes",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2310b981' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>🧠</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Revision Plan",
+      "short_name": "Revise",
+      "description": "Create and manage your revision schedule",
+      "url": "/?section=revision",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23f59e0b' width='192' height='192'/><text x='96' y='130' font-size='120' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'>📅</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
